@@ -1,0 +1,153 @@
+:root {
+    --color-primary: #212121;
+    --color-secondary: #757575;
+    --color-hover: #2196F3;
+    --color-link: white;
+    --color-text: #757575;
+}
+
+/* body */
+body {
+    color: var(--color-primary);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+/* link */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--color-hover);
+}
+
+.logo1 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--color-primary);
+}
+
+.logo2 {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--color-link);
+}
+
+.link {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.link:hover {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--color-hover);
+}
+
+.footer-link {
+    color: var(--color-link);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-link:hover {
+    color: var(--color-link);
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* buttons */
+.primary-buttons {
+    font-weight: 700;
+    line-height: 1.875;
+    cursor: pointer;
+}
+
+.primary-buttons:hover {
+    font-weight: 700;
+    line-height: 1.875;
+    color: var(--color-link);
+    background-color: var(--color-hover);
+    cursor: pointer;
+}
+
+.secondary-buttons { 
+    font-weight: 500;
+    line-height: 1.625;
+    border: none;
+    cursor: pointer;
+}
+
+.secondary-buttons:hover {
+    font-weight: 500;
+    line-height: 1.625;
+    border: none;
+    color: var(--color-link);
+    background-color:var(--color-hover);
+    cursor: pointer;
+}
+
+/* main */
+.first-section, .last-section {
+    background-color: #2F303A;
+}
+
+.middle-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3666;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.primary-headers {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+}
+
+.secondary-headers {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.regular-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text);
+}
+
+.special-text {
+    font-weight: 500;
+    line-height: 1.187;
+}
+
+.secondary-text {
+    line-height: 1.187;
+    color: var(--color-text);
+}
+
+.portfolio-sec-headers {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
