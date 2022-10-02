@@ -2,7 +2,7 @@
     --color-primary: #212121;
     --color-secondary: #757575;
     --color-hover: #2196F3;
-    --color-link: white;
+    --color-link: #fff;
     --color-text: #757575;
 }
 
@@ -12,12 +12,17 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
 }
+
+.ul-list {
+    list-style: none;
+}
+/*body*/
 
 /* link */
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -25,35 +30,39 @@ body {
 }
 
 .logo1 {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
     color: var(--color-primary);
 }
 
 .logo2 {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
     color: var(--color-link);
 }
 
-.link {
-    color: var(--color-primary);
+.current {
+    color: inherit;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
 
-.link:hover {
-    text-decoration: underline;
+.current:hover, .current:focus, .current:active {
+    color: var(--color-hover);
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+}
+
+.link:hover, .link:focus {
     color: var(--color-hover);
+}
+
+.portfolio-link {
+    text-decoration: none;
 }
 
 .footer-link {
@@ -63,45 +72,40 @@ body {
     font-size: 14px;
     line-height: 1.7;
 }
-
-.footer-link:hover {
-    color: var(--color-link);
-    text-decoration: underline;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-}
+/*link*/
 
 /* buttons */
 .primary-buttons {
-    font-weight: 700;
-    line-height: 1.875;
-    cursor: pointer;
-}
-
-.primary-buttons:hover {
-    font-weight: 700;
-    line-height: 1.875;
     color: var(--color-link);
-    background-color: var(--color-hover);
+    background-color: #2196F3;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    line-height: 1.875;
     cursor: pointer;
 }
 
-.secondary-buttons { 
+.primary-buttons:hover, .primary-buttons:focus {
+    color: var(--color-link);
+    background-color: #188CE8;
+    cursor: pointer;
+}
+
+.secondary-buttons {
+    font-family: inherit; 
     font-weight: 500;
+    font-size: inherit;
     line-height: 1.625;
     border: none;
     cursor: pointer;
 }
 
-.secondary-buttons:hover {
-    font-weight: 500;
-    line-height: 1.625;
-    border: none;
+.secondary-buttons:hover, .secondary-buttons:focus {
     color: var(--color-link);
     background-color:var(--color-hover);
     cursor: pointer;
 }
+/*buttons*/
 
 /* main */
 .first-section, .last-section {
@@ -115,6 +119,10 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.our-team {
+    background-color: #F5F5F5;
 }
 
 .primary-headers {
